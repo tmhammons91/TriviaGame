@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Timed Trivia Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css">
+  
+    <!-- Our CSS style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+
+  <div class="container-fluid">
+
+  <div class="jumbotron">
+    <div id="heading">Facts About the Presidents</div> 
+  </div>
+
+  <div class="row" id="main-content">
+      <div class="col-md-3"></div>
+    
+       <div class="col-md-6" id="gameboard">
+
+          <div class="row">
+          <h4>Test Your Knowledge of Presidential Trivia!</h4>
+         
+          </div> <!--end of 1st row instructions-->
+
+         <div class="row">
+         <div id="timer"></div><br>
+         </div> <!--end of row for timer div-->
+
+    
+       <div class="row">
+          <div id="question">  </div> <br>
+          <div id="option-display">
+          <div class="option" id="option1">   </div>
+          <div class="option" id="option2">   </div>
+          <div class="option" id="option3">   </div>
+          <div class="option" id="option4">  </div> 
+          </div> <!--end of option display -->
+          <div id="image"> </div>
+        </div>
+
+
+      <div class="row">
+        <div id="game-results"> </div><br>
+      </div>
+
+    <div class="row">
+      <div id="start"> <button id="start-button"> Start Game </button> </div>
+      <div id="restart-button"> </div>
+    </div>
+
+  </div> <!--end of col-md-6-->
+  <div class="col-md-3"> </div>
+  
+  </div> <!--end of main-content row -->
+  
+  </div> <!--end of container class-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+  </body>
+
+</html>
+

@@ -1,0 +1,56 @@
+.jumbotron { /* Visual */ 
+  background-image: url("../images/rushmore.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 300px;
+  position: relative;
+
+}
+
+#heading {
+  background: #666666;
+  color: white;
+  font-weight: bold;
+  opacity: .7;
+  text-align: center;
+  width: 100%;
+  padding: 2px;
+  font-size: xx-large;
+  position: absolute; 
+  /*top: 175px;*/
+  bottom: 0px;
+  /*top: 50%;*/
+  left: 50%;
+  /*margin-right: -50%;*/
+  transform: translate(-50%, 0%) }
+}
+
+
+
+.gameboard {
+  border: dotted;
+  padding: 5px;
+}
+#gameboard {
+
+  border: dotted;
+  padding: 25px;
+
+}
+
+.test {
+  background: gray;
+}
+
+.option{
+  width: 33%;
+
+}
+
+.option:hover {
+  background: gray;
+
+
+}
+
